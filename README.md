@@ -1,21 +1,29 @@
-# Shameless
+# Shameless Plug
 
-**TODO: Add description**
+Shameless plug does exactly what the name suggests.  
+It is an elixir plug, that does nothing but shamelesly **plugs** my ad into your `conn` 
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `shameless` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:shameless, "~> 0.1.0"}
+    {:shameless, git: "https://github.com/4tyTwo/shameless_plug.git", tag: "1.0.0"}
   ]
 end
 ```
+Just add the plug to your pipeline, like this:
+```elixir
+pipeline :api do
+  plug :accepts, ["json"]
+  plug Shameless
+end
+```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/shameless](https://hexdocs.pm/shameless).
+## Q&A
+
+#### Q: Why would anyone want this?
+A: No one would
+#### Q: Did you really made this just for the pun?
+A: Yes, that's why I did it
 
