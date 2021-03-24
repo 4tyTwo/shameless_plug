@@ -1,7 +1,7 @@
 # Shameless Plug
 
 Shameless plug does exactly what the name suggests.  
-It is an elixir plug, that does nothing but shamelesly **plugs** my ad into your `conn` 
+It is an elixir plug that does nothing but shamelesly **plug** my ad into your `conn` 
 
 ## Installation
 
@@ -24,6 +24,6 @@ end
 
 #### Q: Why would anyone want this?
 A: No one would
-#### Q: Did you really made this just for the pun?
+#### Q: Did you really make this just for the pun?
 A: Yes, that's why I did it
 
