@@ -1,5 +1,4 @@
 defmodule Shameless do
-  import Plug.Conn
 
   @spec init(any) :: any
   def init(options), do: options
